@@ -7,3 +7,4 @@ COPY init.sql /docker-entrypoint-initdb.d/
 ENV POSTGRES_USER postgres
 ENV POSTGRES_PASSWORD baobao123
 ENV POSTGRES_DB todolist
+ENV POSTGRES_PORT 5433
